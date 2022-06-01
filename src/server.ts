@@ -2,7 +2,7 @@ import express from 'express'
 
 const app = express();
 
-app.get('/users', (req, res) => {
+app.get('/feedbacks', (req, res) => {
   return res.send('Hello darling!');
 })
 
