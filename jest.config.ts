@@ -11,7 +11,7 @@ export default {
   // bail: 0,
 
   // The directory where Jest should store its cached dependency information
-  // cacheDirectory: "C:\\Users\\FATURAMENTOXXX\\AppData\\Local\\Temp\\jest",
+  // cacheDirectory: "C:\\Users\\gabri\\AppData\\Local\\Temp\\jest",
 
   // Automatically clear mock calls, instances, contexts and results before every test
   clearMocks: true,
@@ -173,9 +173,9 @@ export default {
   // testRunner: "jest-circus/runner",
 
   // A map from regular expressions to paths to transformers
-    transform: {
-      "^.+\\.(t|j)sx?$": ["@swc/jest"],
-    },
+  transform: {
+    "^.+\\.(t|j)sx?$": ["@swc/jest"],
+  },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   // transformIgnorePatterns: [
